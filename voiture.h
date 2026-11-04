@@ -1,6 +1,17 @@
 #pragma once
 #include <string>
 
+class CRoue {
+private:
+    double pression;
+    double diametre;
+    std::string marque;
+public:
+    CRoue();
+    void crevaison();
+    double getPression();
+};
+
 class CVoiture {
 private:
     std::string carburant;
